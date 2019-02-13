@@ -49,7 +49,7 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        exclude: /node_modules\/(?!mpvue-simple\/src\/)/,
+        exclude: /node_modules/,
         use: [
           {
             loader: 'babel-loader',
